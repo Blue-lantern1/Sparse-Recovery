@@ -1,5 +1,11 @@
 # Sparse-Recovery
 Sparse Recovery using non-convex optimization techniques
+Course: EE609A: Convex Optimization in Signal Processing and Communication
+– Measurement vector in data is obtained by projections on design matrix, whose rows look like noise-waveforms; corresponding regressor vector is sparse when encoded. Capable algorithms are required to recover these sparse vectors.
+– In this work, we have implemented three algorithms namely; Basis Pursuit(BP), Iteratively Reweighted Least Squares
+(IRLS) and Iterative Hard Thresholding (IHT) alognside generating our own data set namely, iid Gaussian and Bernoulli.
+– The performance of the algorithms is compared on the basis of NMSE, FLOP count and recovery time.
+
 Simulation results have been provided in 'simulation results' folder
 
 simulation data has been captured in plotting scripts. please run them to see the results
